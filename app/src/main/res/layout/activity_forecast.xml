@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        tools:context=".ui.forecast.ForecastActivity">
+
+        <ExpandableListView
+            android:id="@+id/elvForecast"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/white"
+            android:dividerHeight="0.5dp"
+            android:groupIndicator="@null"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</layout>
